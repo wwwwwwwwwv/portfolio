@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-image: url('https://bogatyr.club/uploads/posts/2023-03/1679601970_bogatyr-club-p-temnii-fon-dlya-oblozhki-krasivo-62.jpg');
+  background-size: cover;
+
+}
+
+header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+header img {
+  width: 50px;
+
+}
+
+header p {
+  color: #fff;
+  font-size: 50px;
+}
+
+
+
+.bib {
+  width: 100%;
+  height: 100vh;
+}
+
+.allp {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.box {
+
+  background-color: rgba(0, 0, 0, 0.87);
+  width: 500px;
+  height: 350px;
+  margin-left: 85px;
+  margin-top: 50px;
+  border-radius: 10px;
+  border: 1px double rgb(255, 255, 255);
+  padding: 10px;
+
+
+}
+
+.box img {
+  width: 100%;
+  height: 280px;
+  border-radius: 10px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+a {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  animation: 1s infinite;
+
+
+}
+
+a:hover {
+  color: rgb(189, 189, 189);
+ 
+  
+}
+
+.bix {
+  background-color: rgba(0, 0, 0, 0.87);
+  width: 480px;
+  height: 290px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.bix:hover{
+  transform: scale(1.2);
+  transition: 1.2s;
+}
